@@ -41,6 +41,7 @@ window#waybar {
 #custom-sr_end,
 #custom-rl_end,
 #custom-rr_end,
+#language,
 #tray {
     color: @main-color;
     background: #191724;
