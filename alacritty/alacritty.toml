@@ -31,7 +31,7 @@ white = "0xD9E0EE"
 yellow = "0xFAE3B0"
 
 [colors.primary]
-background = "0x1E1D2F"
+background = "0x000000"
 foreground = "0xD9E0EE"
 
 [font]
@@ -52,3 +52,6 @@ style = "Italic"
 [font.normal]
 family = "JetBrainsMono Nerd Font"
 style = "Bold"
+
+[window]
+opacity = 0.8
