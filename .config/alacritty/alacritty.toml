@@ -35,7 +35,7 @@ background = "0x000000"
 foreground = "0xD9E0EE"
 
 [font]
-size = 16
+size = 18
 
 [font.bold]
 family = "JetBrainsMono Nerd Font"
@@ -54,6 +54,6 @@ family = "JetBrainsMono Nerd Font"
 style = "Bold"
 
 [window]
-opacity = 0.7
+opacity = 0.8
 padding = { x = 8, y = 8}
 dynamic_padding = true
