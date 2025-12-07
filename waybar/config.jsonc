@@ -14,9 +14,9 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/padd","custom/l_end","pulseaudio","pulseaudio#microphone","custom/updates","custom/r_end","custom/l_end","hyprland/workspaces","hyprland/window","custom/r_end","custom/l_end","cpu","memory","temperature","custom/r_end","custom/padd"],
+	"modules-left": ["custom/padd","custom/l_end","pulseaudio","pulseaudio#microphone","custom/updates","custom/r_end","custom/l_end","hyprland/workspaces","hyprland/window","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","hyprland/language","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","hyprland/language","custom/r_end","custom/padd","custom/l_end","cpu","memory","temperature","battery","custom/r_end"],
 
 
 // sourced from modules based on config.ctl //
