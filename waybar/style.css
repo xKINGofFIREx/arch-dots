@@ -19,6 +19,7 @@ window#waybar {
 #battery,
 #temperature,
 #clock,
+#network,
 #custom-weather.severe,
 #custom-weather.sunnyDay,
 #custom-weather.clearNight,

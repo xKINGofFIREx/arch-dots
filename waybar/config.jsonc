@@ -16,11 +16,20 @@
 
 	"modules-left": ["custom/padd","custom/l_end","pulseaudio","pulseaudio#microphone","custom/updates","custom/r_end","custom/l_end","hyprland/workspaces","hyprland/window","custom/r_end","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","hyprland/language","custom/r_end","custom/padd","custom/l_end","cpu","memory","temperature","battery","custom/r_end"],
+	"modules-right": ["custom/padd","custom/l_end","hyprland/language","custom/r_end","custom/padd","custom/l_end","network","cpu","memory","temperature","battery","custom/r_end"],
 
 
 // sourced from modules based on config.ctl //
-
+    "network": {
+        "interval": 5,
+        "format-wifi": "{icon} {essid}",
+        "format-ethernet": "󰈀 {ifname}",
+        "format-disconnected": "󰖪",
+        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
+        "tooltip-format-wifi": "{icon} {essid} ({signalStrength}%)\n{ipaddr}/{cidr}",
+        "on-click": "nm-connection-editor"
+    },
     "cpu": {
         "interval": 10,
         "format": "󰍛 {usage}%",
@@ -47,7 +56,7 @@
     },
 
     "clock": {
-        "format": " {:%H:%M 󰃭 %a %d}",
+        "format": " {:%H:%M 󰃭 %a %d.%m.%y}",
         "tooltip-format": "<tt><big>{calendar}</big></tt>"
     },
 
