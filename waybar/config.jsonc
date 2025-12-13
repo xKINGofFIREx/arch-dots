@@ -24,8 +24,8 @@
         "interval": 5,
         "format-wifi": "{icon} {essid}",
         "format-ethernet": "󰈀 {ifname}",
-        "format-disconnected": "󰖪",
-        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+        "format-disconnected": "󰖪 ",
+        "format-icons": ["󰤯 ", "󰤟 ", "󰤢 ", "󰤥 ", "󰤨 "],
         "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
         "tooltip-format-wifi": "{icon} {essid} ({signalStrength}%)\n{ipaddr}/{cidr}",
         "on-click": "nm-connection-editor"
